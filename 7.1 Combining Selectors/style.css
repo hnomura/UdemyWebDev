@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* combination */ 
+h1, h2 { 
+    color:blueviolet;
+}
+
+/* child */ 
+.box > p { 
+    color: firebrick;
+}
+
+/* descendant */ 
+.box li { 
+    color: blue;
+}
+
+/* chaining */ 
+li.done { 
+    color: seagreen;
+}
+
+/* dscendent and chaining */ 
+ul p.done {
+    font-size: 0.7rem;
+    color: silver;
+}

@@ -1,21 +1,21 @@
 /* Write your code here: */
 
-/* combination */ 
+/* group (or) */ 
 h1, h2 { 
     color:blueviolet;
 }
 
-/* child */ 
+/* child (direct descendant, single generation deep) */ 
 .box > p { 
     color: firebrick;
 }
 
-/* descendant */ 
+/* descendant (any generations deep) */ 
 .box li { 
     color: blue;
 }
 
-/* chaining */ 
+/* chaining (and) */ 
 li.done { 
     color: seagreen;
 }

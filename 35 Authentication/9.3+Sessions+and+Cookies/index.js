@@ -75,7 +75,7 @@ app.post("/register", async (req, res) => {
     ]);
 
     if (checkResult.rows.length > 0) {
-      req.redirect("/login");
+      res.redirect("/login");
     } else {
       //hashing the password and saving it in the database
       bcrypt.hash(password, saltRounds, async (err, hash) => {

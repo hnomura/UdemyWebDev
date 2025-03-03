@@ -54,6 +54,7 @@ echo $CANISTER_PUBLIC_KEY
 ```
 dfx canister call token transfer "($CANISTER_PUBLIC_KEY, 500_000_000)"
 ```
+NOTE: Terminal must be in project directory. 
 
 # Deploy the Project to the Live IC Network
 

@@ -8,8 +8,13 @@ dfx identity get-principal
 
 2. Save it somewhere.
 
-My principal id is (WSL): 
+My principal id is 
+
+WSL: 
 ldi4m-zpflu-lvqn6-tozv3-y5f55-4xxrj-nshxb-t7bat-ug7yy-lui36-yae
+
+Ubuntu
+hbaxw-jzzfr-5yhdt-bmhbe-g6cxq-yasq5-pwtb5-alxh3-j6nwm-4lgnh-6ae
 
 
 3. Format and store it in a command line variable:
